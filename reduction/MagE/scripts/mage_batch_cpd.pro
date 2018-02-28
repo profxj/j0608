@@ -54,4 +54,7 @@
      mage_pipe, mage_now, CLOBBER = CLOBBER
 ;  ENDFOR
 
+; COADD failed
+; Rerun with orders cut down in 
+
 END
