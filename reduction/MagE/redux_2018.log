@@ -8,18 +8,25 @@ Xe-Fl = Blue
 
 Trace looks ok;  Used a few dome flats
 
-Flat looks a bit dodgy to the blue..
-  Consider just using all 1's
-  Better after I got the right Orders.fits extension
+Flat crashed in order 20
+  Fussed in mage_makeflat.pro
+And turned off illumination flat (should
+probably have done the same for the J0608 data)
+
 
 # Sensitivity function
-  -- Complaining about bluest orders (no shocker)
-  -- Looks pretty good overall
-  -- Made LTT1788_std_1.00.sav
+  -- Using Dec 2017
 
 # Science frames
+  -- Copied over the sensitivity function and the ObjStr0001.fits files
+  -- Order 6 had insufficient number of arclines
+  -- Object profile sure looks mushy, e.g. 2 objects
+  -- Looks much better in the 2nd exposure.  Must have been bad guiding
 
-  -- Needed to not combine the bluest few orders
-  -- Edited Flux/mage_esi_echcombspec.pro directly and then edited it back
-     if not keyword_set(ORDRS) then ordrs=[6L,17L]  ;removed the orders from the call
+# Coadding
+  -- Crashed out in order 19 (as I did with J0608)
+  -- if not keyword_set(ORDRS) then ordrs=[6L,18L]  ; mage_esi_echcombspec.pro
+
+# Results
+  Look ok!
 
