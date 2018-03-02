@@ -1,0 +1,32 @@
+# Plan
+mage_plan, 'Raw/'
+
+# Calibrations
+domeflat = Red
+Xe-Fl = Green
+Xe-Fl = Blue
+
+Trace looks ok;  Used a few dome flats
+
+Flat crashed in order 20
+  Fussed in mage_makeflat.pro
+And turned off illumination flat (should
+probably have done the same for the J0608 data)
+
+
+# Sensitivity function
+  -- Using Dec 2017
+
+# Science frames
+  -- Copied over the sensitivity function and the ObjStr0001.fits files
+  -- Order 6 had insufficient number of arclines
+  -- Object profile sure looks mushy, e.g. 2 objects
+  -- Looks much better in the 2nd exposure.  Must have been bad guiding
+
+# Coadding
+  -- Crashed out in order 19 (as I did with J0608)
+  -- if not keyword_set(ORDRS) then ordrs=[6L,18L]  ; mage_esi_echcombspec.pro
+
+# Results
+  Look ok!
+
