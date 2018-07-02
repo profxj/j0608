@@ -1,0 +1,743 @@
+
+Questions for Prof. X:
+
+
+J0608 Notes:
+
+UVQSJ0608_F.fits
+
+--------------------
+LINETOOLS:
+Z = 0.00075
+
+OII 3726: mean=3729.78, amp = 29.9566, sigma=0.522828, flux = 37.5148, EW = -0.600194
+sig(Mean)=0.0303171, sig(Amplitude)=1.51066, sig(sigma)=0.0306452, sig(flux)=2.77013
+
+OII 3729: mean=3732.57, amp= 41.9784, sig = 0.666173, flux = 72.6959, EW = -1.19847
+sig(Mean)=0.0161822, sig(Amplitude)=0.864334, sig(sigma)=0.0162264, sig(flux)=2.27291
+
+ALIS:
+Continuum = 58.96310889
+OII3726flux = 42.77516531, disp = 28.28465023 (km/s)
+OII3729flux = 77.85115049, disp = 47.14162010
+3726amperr = 0.87617437
+3729amperr = 1.03550501
+Red3726 = 0.00101732
+Red3729 = 0.00102614
+
+
+--------------------
+LINETOOLS:
+H-alpha: 6569.62, amp = 47.6674, sig = 0.77844, flux = 93.0115, EW =-6.19474
+sig(Mean)=0.0248241, sig(Amplitude)=1.31618, sig(sigma)=0.0248241, sig(flux)=1.15135
+
+ALIS:
+Continuum = 16.62358985
+Halphaamp = 88.62622324, dispersion = 13.77654175
+Amperr = 0.56233159
+Red = 0.00104012
+
+--------------------
+LINETOOLS:
+CII4736: Mean=4740.38 Angstrom, Amplitude=8.60973, sigma=0.576744 Angstrom, flux=12.4469 ::  sig(Mean)=0.0408948, sig(Amplitude)=0.529197, sig(sigma)=0.0412278, sig(flux)=0.826459 :: EW =-0.309619 Angstrom
+
+CII4738: Mean=4743.04 Angstrom, Amplitude=25.0131, sigma=0.587204 Angstrom, flux=36.8169 ::  sig(Mean)=0.044076, sig(Amplitude)=1.6261, sig(sigma)=0.044208, sig(flux)=0.945113 :: EW =-0.956699 Angstrom
+
+CII4745: Mean=4749.89 Angstrom, Amplitude=38.4132, sigma=0.551288 Angstrom, flux=53.0823 ::  sig(Mean)=0.0108521, sig(Amplitude)=0.65483, sig(sigma)=0.0108575, sig(flux)=0.987146 :: EW =-1.32844 Angstrom
+
+CII4747: Mean=4752.09 Angstrom, Amplitude=11.3409, sigma=0.560596 Angstrom, flux=15.9363 ::  sig(Mean)=0.165812, sig(Amplitude)=2.81952, sig(sigma)=0.182264, sig(flux)=0.774735 :: EW =-0.397401 Angstrom
+
+ALIS:
+Continuum = 38.32948292
+CII4736amp = 19.17002521
+amperr = 0.40867184
+Red = 0.00105062
+Disp = 41.10321580
+
+CII4738a = 39.62488863 
+amperr = 0.36769668
+Red = 0.00107972
+Disp = 33.87979382
+
+CII4745a = 63.25722671
+amperr = 0.41409595
+Red = 0.00108022
+Disp = 34.07004398
+
+CII4747a = 21.07628567
+amperr = 0.45369487
+Red = 0.00106138
+Disp = 35.51605182
+
+
+--------------------
+LINETOOLS:
+CII3919: wav = 3923.24, amp = 43.2061, sig = 0.364505, flux = 39.4765, EW = -0.615879 Ang
+CII3920.7: wav = 3925.03, amp = 63.0645, sig = 0.479013, flux = 75.722, EW = -1.25409 Ang
+Minibump: 
+
+ALIS:
+CII3919flux = 54.19253627, disp = 24.92689087
+amperr = 0.63977559
+Red = 0.00109745
+CII3920.7flux = 85.23831526, disp = 19.96752876
+Amperr = 0.53964196
+Red = 0.00112373 
+
+--------------------
+LINETOOLS:
+CII 4267: wav = 4272, amp = 117.587, sig = 0.672446, flux = 198.201, EW = -3.92277
+
+ALIS:
+CII4267: flux = 192.32010224 (truamp = 113.9079091), disp = 33.73420455
+Continuum = 52.04668937
+amperr = 0.83642652
+redshift = 0.00117346
+
+--------------------
+LINETOOLS:
+CIII 5696: Mean=5702.3 Angstrom, Amplitude=3.30404, sigma=1.27577 Angstrom, flux=10.5659 ::  sig(Mean)=0.0531506, sig(Amplitude)=0.119208, sig(sigma)=0.0531735, sig(flux)=0.582461 :: EW =-0.499422 Angstrom
+
+ALIS:
+Continuum: 21.31121390
+CII5696: amp=9.33606369      redshift=0.00111300      dispersion=51.83459374
+amperr = 0.54556913
+--------------------
+LINETOOLS:
+
+CII 5535: Mean=5541.2 Angstrom, Amplitude=12.0676, sigma=0.585022 Angstrom, flux=17.6963 ::  sig(Mean)=0.0215403, sig(Amplitude)=0.384735, sig(sigma)=0.0215734, sig(flux)=0.574235 :: EW =-0.637489 Angstrom
+
+CII 5538 = Mean=5543.31 Angstrom, Amplitude=9.88802, sigma=0.593006 Angstrom, flux=14.698 ::  sig(Mean)=0.181968, sig(Amplitude)=2.51125, sig(sigma)=0.202791, sig(flux)=0.528341 :: EW =-0.521914 Angstrom
+
+ALIS:
+Continuum: 24.59326970
+CII5535: alisamp = 25.52938878 (trueamp = 17.40983347), dispersion=15.63190002
+amperr = 0.52597222
+redshift=0.00113552
+
+CII5538: alisamp = 19.38213465 (trueamp = 13.03924918), dispersion=18.85629699
+amperr = 0.44849997
+redshift=0.00100232
+-------------------
+LINETOOLS:
+
+CII5640.5: Mean=5646.83 Angstrom, Amplitude=11.2093, sigma=0.664124 Angstrom, flux=18.6603 ::  sig(Mean)=0.0303365, sig(Amplitude)=0.443592, sig(sigma)=0.0304268, sig(flux)=0.598828 :: EW =-0.862307 Angstrom
+
+CII5648.1: Mean=5654.45 Angstrom, Amplitude=10.4825, sigma=0.572478 Angstrom, flux=15.0422 ::  sig(Mean)=0.0507186, sig(Amplitude)=0.804488, sig(sigma)=0.0508709, sig(flux)=0.495099 :: EW =-0.681624 Angstrom
+
+CII5662.5:Mean=5668.98 Angstrom, Amplitude=9.56858, sigma=0.79761 Angstrom, flux=19.1306 ::  sig(Mean)=0.0728458, sig(Amplitude)=0.699693, sig(sigma)=0.0817374, sig(flux)=0.628829 :: EW =-0.821259 Angstrom
+
+ABSORPTION:
+Mean=5645.06 Angstrom, Amplitude=-3.72716, sigma=0.0984104 Angstrom, flux=-0.91941 ::  sig(Mean)=44219.1, sig(Amplitude)=3.56369e+07, sig(sigma)=212923, sig(flux)=0.328238 :: EW =0.0156986 Angstrom
+
+Mean=5652.62 Angstrom, Amplitude=2.96257, sigma=0.357868 Angstrom, flux=2.65755 ::  sig(Mean)=0.243502, sig(Amplitude)=1.74609, sig(sigma)=0.243854, sig(flux)=0.375863 :: EW =-0.119623 Angstrom
+
+Mean=5667.07 Angstrom, Amplitude=3.93446, sigma=0.353257 Angstrom, flux=3.48391 ::  sig(Mean)=0.197792, sig(Amplitude)=1.97784, sig(sigma)=0.211987, sig(flux)=0.400796 :: EW =-0.162031 Angstrom
+
+
+ALIS:
+
+ emission
+  legendre   21.89875605      -0.44811727      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   amplitude=-10.24052136      redshift=9.25479066E-04  dispersion=0.80486820      specid=0      wave=5640.5  IntFlux=True
+  gaussian   amplitude=26.79359870      redshift=0.00106467      dispersion=30.39219607      specid=0      wave=5640.5  IntFlux=True
+  gaussian   amplitude=-6.57399808      redshift=8.84101843E-04  dispersion=0.77443895      specid=0      wave=5648.1  IntFlux=True
+  gaussian   amplitude=19.28771929      redshift=0.00109566      dispersion=19.64329905      specid=0      wave=5648.1  IntFlux=True
+  gaussian   amplitude=-17.94030836      redshift=8.81360881E-04  dispersion=15.68201579      specid=0      wave=5662.5  IntFlux=True
+  gaussian   amplitude=30.17951390      redshift=0.00105423      dispersion=44.10607868      specid=0      wave=5662.5  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.02240657      0.06439914      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   amplitude=276.01001572      redshift=7.85923230E-06  dispersion=206.42701399      specid=0      wave=5640.5  IntFlux=True
+# gaussian   amplitude=13.01611191      redshift=0.00006083      dispersion=7.75090759      specid=0      wave=5640.5  IntFlux=True
+# gaussian   amplitude=170.83244761      redshift=1.34475513E-05  dispersion=109.36383382      specid=0      wave=5648.1  IntFlux=True
+# gaussian   amplitude=2.68252649      redshift=0.00001736      dispersion=4.57140688      specid=0      wave=5648.1  IntFlux=True
+# gaussian   amplitude=5.36664302      redshift=4.89852476E-06  dispersion=5.81630823      specid=0      wave=5662.5  IntFlux=True
+# gaussian   amplitude=5.48694000      redshift=0.00003010      dispersion=3.60324181      specid=0      wave=5662.5  IntFlux=True
+
+
+------
+H-Beta:
+LINETOOLS:
+HBeta4861.3: Mean=4866.93 Angstrom, Amplitude=21.9999, sigma=0.898273 Angstrom, flux=49.5357 ::  sig(Mean)=0.0429052, sig(Amplitude)=0.910152, sig(sigma)=0.0429215, sig(flux)=1.2327 :: EW =-1.53706 Angstrom
+
+ALIS:
+Continuum: 31.51746111
+ALISAmp=50.40331768
+TrueAmp = 22.39199832
+redshift=0.00116290
+dispersion=38.62826586
+Error amp = 0.81205671
+-----------
+LINETOOLS: !!ABSORPTION
+HeI3888.8: Mean=3893.14 Angstrom, Amplitude=80.9721, sigma=0.433753 Angstrom, flux=88.0376 ::  sig(Mean)=0.0372678, sig(Amplitude)=6.02265, sig(sigma)=0.0372678, sig(flux)=2.23638 :: EW =-1.69477 Angstrom
+
+ALIS:
+Continuum: 50.95228255
+HeI3888.4: ALISAmp= 85.47849631
+Sigma: 0.46728474
+Ampsig: 0.50978079
+Dispersionsig: 0.92214054
+Redshift = 0.00111691
+
+Absorption:
+Mean=3891.64 Angstrom, Amplitude=18.9968, sigma=0.34354 Angstrom, flux=16.3586 ::  sig(Mean)=0.0398079, sig(Amplitude)=1.90812, sig(sigma)=0.0408339, sig(flux)=1.30989 :: EW =-0.311197 Angstrom
+
+-----------------
+LINETOOLS: !! ABSORPTION
+HeI4471.5: Mean=4476.73 Angstrom, Amplitude=23.2747, sigma=0.430504 Angstrom, flux=25.116 ::  sig(Mean)=0.04214, sig(Amplitude)=1.9744, sig(sigma)=0.0425627, sig(flux)=0.936863 :: EW =-0.637667 Angstrom
+
+ALIS:
+HeI4471.5:
+Continuum:36.76747652 
+ALISamp: 30.47276144
+Dispersion:29.76811174
+Ampsig:0.32922098
+Dispersionsig:0.35637451
+Redshift = 0.00118049
+
+Absorption:
+Mean=4475.11 Angstrom, Amplitude=15.2563, sigma=0.379122 Angstrom, flux=14.4983 ::  sig(Mean)=0.0586245, sig(Amplitude)=2.04651, sig(sigma)=0.0591084, sig(flux)=0.662308 :: EW =-0.407233 Angstrom
+------------------
+
+FROM HERE ON OUT, I COPY ALL OF LINETOOLS AND ALIS OUTPUT HERE:
+
+----------------------------------------------------------------------------------------------
+4340.5 H-gamma
+
+Mean=4345.1 Angstrom, Amplitude=11.0857, sigma=0.548432 Angstrom, flux=15.2397 ::  sig(Mean)=0.0100125, sig(Amplitude)=0.175523, sig(sigma)=0.0100965, sig(flux)=0.370048 :: EW =-0.343421 Angstrom
+
+emission
+  legendre   44.70853950      0.97361931      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   13.32376329      0.00106227      12.34896758      specid=0      wave=4340.5  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.19305768      0.82594374      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   0.63076546      0.00000391      3.91383225      specid=0      wave=4340.5  IntFlux=True
+
+
+---------------------------------------------------------------------------------------------
+4409-4413 CII
+
+?? (Insert later)
+
+----------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------
+He I- 4713.2
+
+EMISSION:
+Mean=4718.48 Angstrom, Amplitude=13.5711, sigma=0.465402 Angstrom, flux=15.8319 ::  sig(Mean)=0.0413111, sig(Amplitude)=1.04309, sig(sigma)=0.0413696, sig(flux)=0.814864 :: EW =-0.44147 Angstrom
+
+ABSORPTION:
+Mean=4716.91 Angstrom, Amplitude=4.21662, sigma=0.283475 Angstrom, flux=2.9962 ::  sig(Mean)=0.129003, sig(Amplitude)=1.65764, sig(sigma)=0.129394, sig(flux)=0.621273 :: EW =-0.0859266 Angstrom
+
+ emission
+  legendre   36.29838633      2.48633242      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   -8.45369996      8.42047469E-04  17.43619941      specid=0      wave=4713.2  IntFlux=True
+  gaussian   17.62988543      0.00110079      11.41304437      specid=0      wave=4713.2  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.19677973      0.86308293      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   2.14620990      2.98240903E-05  11.40639948      specid=0      wave=4713.2  IntFlux=True
+# gaussian   2.37350700      0.00001187      7.48154937      specid=0      wave=4713.2  IntFlux=True
+
+
+--------------------------------------------------------------------------------------
+CII 4727.4-4734.6
+Mean=4732.3 Angstrom, Amplitude=3.28066, sigma=1.94045 Angstrom, flux=15.9571 ::  sig(Mean)=0.0901581, sig(Amplitude)=0.132094, sig(sigma)=0.0943989, sig(flux)=1.00768 :: EW =-0.4265 Angstrom
+
+gaussian   11.62721036      0.00103903      94.08975441      specid=0      wave=4727.4  IntFlux=True
+ERRORS
+gaussian   1.05306788      0.00001790      7.30321337      specid=0      wave=4727.4  IntFlux=True
+
+----------------------------------------------------------------------------------------------
+CII 4867.1
+
+Mean=4872.16 Angstrom, Amplitude=8.32506, sigma=0.630011 Angstrom, flux=13.147 ::  sig(Mean)=0.0204978, sig(Amplitude)=0.234653, sig(sigma)=0.0213996, sig(flux)=0.580291 :: EW =-0.39346 Angstrom
+
+emission
+  legendre   32.66354085      -0.47880579      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   12.67911646      0.00104268      19.65719492      specid=0      wave=4867.1  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.16555467      0.68239737      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   0.64103538      0.00000422      3.00487906      specid=0      wave=4867.1  IntFlux=True
+
+----------------------------------------------------------------------------------------------
+HeI 4921.9
+EMISSION:
+Mean=4927.49 Angstrom, Amplitude=8.81376, sigma=0.375534 Angstrom, flux=8.29662 ::  sig(Mean)=0.0394922, sig(Amplitude)=0.801686, sig(sigma)=0.0396772, sig(flux)=0.821783 :: EW =-0.273873 Angstrom
+
+ABSORPTION:
+Mean=4925.89 Angstrom, Amplitude=11.3498, sigma=0.466662 Angstrom, flux=13.2764 ::  sig(Mean)=0.102994, sig(Amplitude)=2.16861, sig(sigma)=0.103027, sig(flux)=0.965216 :: EW =-0.443594 Angstrom
+
+
+emission
+  legendre   31.00373504      1.28900981      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   -24.47923733      8.67151974E-04  34.58230912      specid=0      wave=4921.9  IntFlux=True
+  gaussian   15.17858440      0.00108936      0.62530241      specid=0      wave=4921.9  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.21116905      0.73944029      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   5.03815439      3.34100604E-05  7.03157629      specid=0      wave=4921.9  IntFlux=True
+# gaussian   271.17188837      0.00018845      154.35618349      specid=0      wave=4921.9  IntFlux=True
+
+
+----------------------------------------------------------------------------------------------
+HeI 5015.7
+EMISSION:
+Mean=5021.34 Angstrom, Amplitude=34.3857, sigma=0.558606 Angstrom, flux=48.1474 ::  sig(Mean)=0.0408319, sig(Amplitude)=2.17992, sig(sigma)=0.0413611, sig(flux)=0.968769 :: EW =-1.59505 Angstrom
+
+ABSORPTION:
+Mean=5019.57 Angstrom, Amplitude=11.8095, sigma=0.344306 Angstrom, flux=10.1921 ::  sig(Mean)=0.216515, sig(Amplitude)=6.39837, sig(sigma)=0.215262, sig(flux)=0.713158 :: EW =-0.340476 Angstrom
+
+emission
+  legendre   30.75168650      1.10580149      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   -108.29356861      9.26355975E-04  28.35008748      specid=0      wave=5015.7  IntFlux=True
+  gaussian   142.14235722      0.00101082      33.39062709      specid=0      wave=5015.7  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.10857369      0.37894022      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   1210.49953927      1.71516857E-04  30.24529983      specid=0      wave=5015.7  IntFlux=True
+# gaussian   1210.96099594      0.00058806      32.28932337      specid=0      wave=5015.7  IntFlux=True
+
+----------------------------------------------------------------------------------------------
+CII 5107.9,5113.7+5114.3,5116.7,5119.4
+
+ Mean=5113.19 Angstrom, Amplitude=3.12968, sigma=0.830591 Angstrom, flux=6.51593 ::  sig(Mean)=0.0358358, sig(Amplitude)=0.117121, sig(sigma)=0.0373561, sig(flux)=0.381238 :: EW =-0.208344 Angstrom
+
+Mean=5119.39 Angstrom, Amplitude=13.4932, sigma=0.938312 Angstrom, flux=31.7361 ::  sig(Mean)=0.0104014, sig(Amplitude)=0.129544, sig(sigma)=0.0104067, sig(flux)=0.465539 :: EW =-0.998321 Angstrom
+
+
+----------------------------------------------------------------------------------------------
+CII 5120.1, 5121.8
+Mean=5125.05 Angstrom, Amplitude=5.89536, sigma=0.487851 Angstrom, flux=7.2092 ::  sig(Mean)=0.0538881, sig(Amplitude)=0.563745, sig(sigma)=0.0539147, sig(flux)=0.756844 :: EW =-0.190226 Angstrom
+
+Mean=5127.17 Angstrom, Amplitude=15.4073, sigma=0.577561 Angstrom, flux=22.3056 ::  sig(Mean)=0.14618, sig(Amplitude)=3.35418, sig(sigma)=0.155487, sig(flux)=0.705179 :: EW =-0.612877 Angstrom
+----------------------------------------------------------------------------------------------
+HeI 5875.621
+EMISSION:
+Mean=5882.3 Angstrom, Amplitude=50.7593, sigma=0.713719 Angstrom, flux=90.8098 ::  sig(Mean)=0.023521, sig(Amplitude)=1.45029, sig(sigma)=0.0237407, sig(flux)=0.955753 :: EW =-4.30264 Angstrom
+
+
+ABSORPTION:
+Mean=5879.89 Angstrom, Amplitude=8.56729, sigma=0.464576 Angstrom, flux=9.97678 ::  sig(Mean)=0.0736738, sig(Amplitude)=1.17621, sig(sigma)=0.0740716, sig(flux)=0.581627 :: EW =-0.492479 Angstrom
+
+emission
+  legendre   21.55036276      3.15554991      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   -32.55674125      8.53892191E-04  41.25975387      specid=0      wave=5875.621  IntFlux=True
+  gaussian   106.30908122      0.00111684      24.98530095      specid=0      wave=5875.621  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.07494240      0.25655997      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   5.76747780      3.02589232E-05  5.21801918      specid=0      wave=5875.621  IntFlux=True
+# gaussian   5.69184788      0.00000403      0.92843005      specid=0      wave=5875.621  IntFlux=True
+
+
+----------------------------------------------------------------------------------------------
+NII 6583.4 CII 6578.05 
+
+
+EMISSION:
+Mean=6585.53 Angstrom, Amplitude=46.8819, sigma=0.820514 Angstrom, flux=96.4231 ::  sig(Mean)=0.0193891, sig(Amplitude)=0.944062, sig(sigma)=0.02098, sig(flux)=0.789987 :: EW =-6.77047 Angstrom
+
+Mean=6590.32 Angstrom, Amplitude=65.0618, sigma=0.871333 Angstrom, flux=142.102 ::  sig(Mean)=0.0289697, sig(Amplitude)=1.87433, sig(sigma)=0.0290774, sig(flux)=1.37524 :: EW =-10.2084 Angstrom
+
+
+ABSORPTION:
+Mean=6583.07 Angstrom, Amplitude=8.06646, sigma=0.443785 Angstrom, flux=8.97316 ::  sig(Mean)=0.0776142, sig(Amplitude)=1.22507, sig(sigma)=0.0782183, sig(flux)=0.336792 :: EW =-0.592333 Angstrom
+
+
+emission
+  legendre   16.14894228      1.96984149      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   -15.82288788      7.91629062E-04  0.44705849      specid=0      wave=6578.05  IntFlux=True
+  gaussian   88.32574417      0.00113536      17.75288092      specid=0      wave=6578.05  IntFlux=True
+  gaussian   127.44251529      0.00106292      21.82449280      specid=0      wave=6583.4  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.05352269      0.15783034      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   899393.27537887      3.05818514E-02  61545.75273530      specid=0      wave=6578.05  IntFlux=True
+# gaussian   0.79831351      0.00000126      396.27431507      specid=0      wave=6578.05  IntFlux=True
+# gaussian   0.56036121      0.00000045      322.67678407      specid=0      wave=6583.4  IntFlux=True
+
+
+
+----------------------------------------------------------------------------------------------
+CII 7231.32 7236.42  !!!!INPUT STARTING HERE!!!!
+
+Mean=7239.1 Angstrom, Amplitude=53.4903, sigma=0.908604 Angstrom, flux=121.826 ::  sig(Mean)=0.0168455, sig(Amplitude)=0.858847, sig(sigma)=0.0168455, sig(flux)=0.889279 :: EW =-7.40758 Angstrom
+
+Mean=7244.39 Angstrom, Amplitude=68.5576, sigma=0.985458 Angstrom, flux=169.349 ::  sig(Mean)=0.031755, sig(Amplitude)=1.91366, sig(sigma)=0.0318097, sig(flux)=1.00408 :: EW =-11.3095 Angstrom
+
+model read
+lim gaussian amplitude [None,None]
+fix vfwhm value False
+fix gaussian dispersion False
+ emission
+  legendre   13.50480833      2.67202178      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   138.35055534      0.00108473      27.99394419      specid=0      wave=7231.32  IntFlux=True
+  gaussian   175.76359492      0.00110801      30.25865637      specid=0      wave=7236.42  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.04706418      0.12263929      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   0.48882168      0.00000062      7495.11112796      specid=0      wave=7231.32  IntFlux=True
+# gaussian   0.57110389      0.00000045      6921.95045372      specid=0      wave=7236.42  IntFlux=True
+
+----------------------------------------------------------------------------------------------
+OI 8446.5
+Mean=8455.37 Angstrom, Amplitude=4.46199, sigma=1.56304 Angstrom, flux=17.4819 ::  sig(Mean)=0.0965967, sig(Amplitude)=0.239199, sig(sigma)=0.0976402, sig(flux)=0.380803 :: EW =-2.82499 Angstrom
+
+emission
+  legendre   6.93750291      -0.06147949      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   11.33401701      0.00105236      2.83397483      specid=0      wave=8446.5  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.05008149      0.22452470      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   1.91528482      0.00000601      36562.66548772      specid=0      wave=8446.5  IntFlux=True
+
+----------------------------------------------------------------------------------------------
+CII 7508.9 7519.49 7519.93 7530.6
+
+Mean=7517.52 Angstrom, Amplitude=4.77369, sigma=1.07913 Angstrom, flux=12.9127 ::  sig(Mean)=0.0351697, sig(Amplitude)=0.134927, sig(sigma)=0.0357358, sig(flux)=0.312543 :: EW =-1.21533 Angstrom
+
+Mean=7527.82 Angstrom, Amplitude=7.68705, sigma=0.94235 Angstrom, flux=18.1577 ::  sig(Mean)=0.0121141, sig(Amplitude)=0.0855734, sig(sigma)=0.012115, sig(flux)=0.308791 :: EW =-1.7234 Angstrom
+
+Mean=7531.87 Angstrom, Amplitude=1.49435, sigma=0.835778 Angstrom, flux=3.13065 ::  sig(Mean)=0.206979, sig(Amplitude)=0.315726, sig(sigma)=0.224131, sig(flux)=0.261949 :: EW =-0.292172 Angstrom
+
+Mean=7538.57 Angstrom, Amplitude=3.18445, sigma=1.08212 Angstrom, flux=8.63775 ::  sig(Mean)=0.0340958, sig(Amplitude)=0.0803777, sig(sigma)=0.0394778, sig(flux)=0.243978 :: EW =-0.83364 Angstrom
+
+emission
+  legendre   10.26292986      -0.44827242      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   13.27959144      0.00114898      26.48133235      specid=0      wave=7508.9  IntFlux=True
+  gaussian   3.45309823      0.00167844      8.31100941      specid=0      wave=7519.49  IntFlux=True
+  gaussian   19.49784236      0.00105503      17.39747630      specid=0      wave=7519.93  IntFlux=True
+  gaussian   4.46319902      0.00107754      0.24923756      specid=0      wave=7530.6  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.02358891      0.06712909      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   0.28872881      0.00000230      2.22524132      specid=0      wave=7508.9  IntFlux=True
+# gaussian   0.18534090      0.00000625      9.48649581      specid=0      wave=7519.49  IntFlux=True
+# gaussian   0.21447077      0.00000141      2.68692906      specid=0      wave=7519.93  IntFlux=True
+# gaussian   0.00000000      0.00000954      6.18978889      specid=0      wave=7530.6  IntFlux=True
+
+----------------------------------------------------------------------------------------------
+OII 7319 7330
+
+Mean=7327.33 Angstrom, Amplitude=2.27548, sigma=1.06815 Angstrom, flux=6.0925 ::  sig(Mean)=0.0589658, sig(Amplitude)=0.108833, sig(sigma)=0.0592423, sig(flux)=0.446196 :: EW =-0.585886 Angstrom
+Dot at x=7324.29, y=10.2629
+
+Mean=7337.85 Angstrom, Amplitude=1.65699, sigma=1.03823 Angstrom, flux=4.31224 ::  sig(Mean)=0.0350888, sig(Amplitude)=0.0485657, sig(sigma)=0.035433, sig(flux)=0.193993 :: EW =-0.420979 Angstrom
+
+emission
+  legendre   10.21331844      0.09399123      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   amplitude=6.98849277      redshift=0.00113720      dispersion=47.36162898      specid=0      wave=7319.0  IntFlux=True
+  gaussian   amplitude=3.91629301      redshift=0.00109690      dispersion=39.55560745      specid=0      wave=7330.0  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.03396725      0.10409423      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   amplitude=0.38645335      redshift=0.00000667      dispersion=2.39609582      specid=0      wave=7319.0  IntFlux=True
+# gaussian   amplitude=0.30762165      redshift=0.00000880      dispersion=3.01628442      specid=0      wave=7330.0  IntFlux=True
+
+----------------------------------------------------------------------------------------------
+CII 7231.32 7236.42
+
+Mean=7239.1 Angstrom, Amplitude=53.6188, sigma=0.911671 Angstrom, flux=122.531 ::  sig(Mean)=0.0106066, sig(Amplitude)=0.540232, sig(sigma)=0.0106076, sig(flux)=0.865647 :: EW =-7.5245 Angstrom
+
+Mean=7244.4 Angstrom, Amplitude=68.9374, sigma=0.963943 Angstrom, flux=166.57 ::  sig(Mean)=0.0290611, sig(Amplitude)=1.78479, sig(sigma)=0.0309728, sig(flux)=0.951944 :: EW =-10.5728 Angstrom
+
+emission
+  legendre   13.50480833      2.67202178      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   138.35055534      0.00108473      27.99394419      specid=0      wave=7231.32  IntFlux=True
+  gaussian   175.76359492      0.00110801      30.25865637      specid=0      wave=7236.42  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.04706418      0.12263929      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   0.48882168      0.00000062      7495.11112796      specid=0      wave=7231.32  IntFlux=True
+# gaussian   0.57110389      0.00000045      6921.95045372      specid=0      wave=7236.42  IntFlux=True
+
+----------------------------------------------------------------------------------------------
+He I 7065.2
+
+Mean=7073.1 Angstrom, Amplitude=25.9628, sigma=0.900932 Angstrom, flux=58.6318 ::  sig(Mean)=0.0188953, sig(Amplitude)=0.471973, sig(sigma)=0.0190955, sig(flux)=0.441214 :: EW =-5.35683 Angstrom
+
+emission
+  legendre   11.46574144      0.91318634      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   amplitude=57.15631294      redshift=0.00111904      dispersion=25.31974855      specid=0      wave=7065.2  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.04234548      0.21180560      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   amplitude=0.32523071      redshift=0.00000082      dispersion=8389.20302719      specid=0      wave=7065.2  IntFlux=True
+
+----------------------------------------------------------------------------------------------
+
+CII 6780.6 6783.9 6787.2 6791.5 6798.1 6800.7 6812.3
+EMISSION:
+Mean=6788.03 Angstrom, Amplitude=7.1327, sigma=0.503938 Angstrom, flux=9.00993 ::  sig(Mean)=0.129282, sig(Amplitude)=1.58141, sig(sigma)=0.128877, sig(flux)=0.255753 :: EW =-0.655157 Angstrom
+
+6791.66 Angstrom, Amplitude=9.79816, sigma=0.575141 Angstrom, flux=14.1257 ::  sig(Mean)=0.0447129, sig(Amplitude)=0.660438, sig(sigma)=0.0450157, sig(flux)=0.286642 :: EW =-1.0203 Angstrom
+
+6794.89 Angstrom, Amplitude=6.85522, sigma=0.655624 Angstrom, flux=11.2659 ::  sig(Mean)=0.0491408, sig(Amplitude)=0.445335, sig(sigma)=0.0494791, sig(flux)=0.280963 :: EW =-0.815418 Angstrom
+
+Mean=6799.19 Angstrom, Amplitude=6.74128, sigma=0.695942 Angstrom, flux=11.7599 ::  sig(Mean)=0.0193715, sig(Amplitude)=0.151594, sig(sigma)=0.0218569, sig(flux)=0.283206 :: EW =-0.763545 Angstrom
+
+Mean=6805.33 Angstrom, Amplitude=4.61898, sigma=0.564959 Angstrom, flux=6.54113 ::  sig(Mean)=0.0179548, sig(Amplitude)=0.124419, sig(sigma)=0.019817, sig(flux)=0.235563 :: EW =-0.429452 Angstrom
+
+Mean=6808.33 Angstrom, Amplitude=7.67015, sigma=0.661496 Angstrom, flux=12.7181 ::  sig(Mean)=0.0223031, sig(Amplitude)=0.221421, sig(sigma)=0.0240616, sig(flux)=0.287094 :: EW =-0.835733 Angstrom
+
+Mean=6819.74 Angstrom, Amplitude=5.3729, sigma=0.748114 Angstrom, flux=10.0755 ::  sig(Mean)=0.0227407, sig(Amplitude)=0.141488, sig(sigma)=0.0227977, sig(flux)=0.334017 :: EW =-0.731189 Angstrom
+
+ABSORPTION:
+Mean=6785.8 Angstrom, Amplitude=4.94478, sigma=0.63038 Angstrom, flux=7.81339 ::  sig(Mean)=0.0626122, sig(Amplitude)=0.425972, sig(sigma)=0.0633762, sig(flux)=0.296932 :: EW =-0.552725 Angstrom
+
+Mean=6789.75 Angstrom, Amplitude=20.5493, sigma=0.129209 Angstrom, flux=6.65549 ::  sig(Mean)=595.072, sig(Amplitude)=5.79176e+06, sig(sigma)=9902.59, sig(flux)=0.22064 :: EW =-0.228134 Angstrom
+
+Mean=6797.23 Angstrom, Amplitude=10.2436, sigma=0.133747 Angstrom, flux=3.43421 ::  sig(Mean)=150.43, sig(Amplitude)=753677, sig(sigma)=2830.5, sig(flux)=0.217195 :: EW =-0.130519 Angstrom
+
+
+
+emission
+  legendre   14.01485924      -0.32070007      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   amplitude=-12.13242860      redshift=8.07944178E-04  dispersion=32.84861079      specid=0      wave=6780.6  IntFlux=True
+  gaussian   amplitude=13.70656376      redshift=0.00108881      dispersion=26.09946599      specid=0      wave=6780.6  IntFlux=True
+  gaussian   amplitude=-7.06964455      redshift=8.52279121E-04  dispersion=11.95244951      specid=0      wave=6783.9  IntFlux=True
+  gaussian   amplitude=14.00026300      redshift=0.00113630      dispersion=10.50595876      specid=0      wave=6783.9  IntFlux=True
+  gaussian   amplitude=9.13733027      redshift=0.00112595      dispersion=8.82869143      specid=0      wave=6787.2  IntFlux=True
+  gaussian   amplitude=-383.26892356      redshift=9.33036302E-04  dispersion=37.20114167      specid=0      wave=6791.5  IntFlux=True
+  gaussian   amplitude=393.17487159      redshift=9.39488524E-04  dispersion=38.83486590      specid=0      wave=6791.5  IntFlux=True
+  gaussian   amplitude=8.72227561      redshift=0.00106435      dispersion=0.31778932      specid=0      wave=6798.1  IntFlux=True
+  gaussian   amplitude=14.45843277      redshift=0.00113035      dispersion=19.44544790      specid=0      wave=6800.7  IntFlux=True
+  gaussian   amplitude=9.54611542      redshift=0.00109250      dispersion=20.64134275      specid=0      wave=6812.3  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.01765951      0.04069642      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   amplitude=1.58749280      redshift=1.76024910E-05  dispersion=3.42913387      specid=0      wave=6780.6  IntFlux=True
+# gaussian   amplitude=2.39738989      redshift=0.00000780      dispersion=5.74047150      specid=0      wave=6780.6  IntFlux=True
+# gaussian   amplitude=1.15710105      redshift=9.16265707E-06  dispersion=5.21264831      specid=0      wave=6783.9  IntFlux=True
+# gaussian   amplitude=0.25242321      redshift=0.00000170      dispersion=1.65462164      specid=0      wave=6783.9  IntFlux=True
+# gaussian   amplitude=0.38432399      redshift=0.00000295      dispersion=2.46807950      specid=0      wave=6787.2  IntFlux=True
+# gaussian   amplitude=8833.22599518      redshift=6.74661082E-05  dispersion=20.18641762      specid=0      wave=6791.5  IntFlux=True
+# gaussian   amplitude=8833.39273692      redshift=8.41527754E-05  dispersion=17.97054168      specid=0      wave=6791.5  IntFlux=True
+# gaussian   amplitude=0.00000000      redshift=0.00000066      dispersion=0.14986765      specid=0      wave=6798.1  IntFlux=True
+# gaussian   amplitude=0.16119533      redshift=0.00000124      dispersion=0.90267608      specid=0      wave=6800.7  IntFlux=True
+# gaussian   amplitude=0.16558843      redshift=0.00000184      dispersion=1.04475181      specid=0      wave=6812.3  IntFlux=True
+
+----------------------------------------------------------------------------------------------
+HeI 6678
+
+EMISSION:
+Mean=6685.87 Angstrom, Amplitude=18.9814, sigma=0.782472 Angstrom, flux=37.2294 ::  sig(Mean)=0.0302677, sig(Amplitude)=0.632512, sig(sigma)=0.0320593, sig(flux)=0.460687 :: EW =-2.48224 Angstrom
+
+ABSORPTION:
+Mean=6683.33 Angstrom, Amplitude=7.43824, sigma=0.54584 Angstrom, flux=10.1771 ::  sig(Mean)=0.171187, sig(Amplitude)=2.01832, sig(sigma)=0.171258, sig(flux)=0.296115 :: EW =-0.694121 Angstrom
+
+emission
+  legendre   14.70335752      -0.43829119      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   -22.50783531      8.70130837E-04  31.54865504      specid=0      wave=6678.1  IntFlux=True
+  gaussian   46.47139060      0.00113337      27.51236833      specid=0      wave=6678.1  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.04466771      0.12096275      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   8.63359119      4.66517041E-05  35200.49904172      specid=0      wave=6678.1  IntFlux=True
+# gaussian   8.43205176      0.00002558      40530.59758734      specid=0      wave=6678.1  IntFlux=True
+
+----------------------------------------------------------------------------------------------
+CII 6461.9
+Mean=6468.76 Angstrom, Amplitude=14.5956, sigma=1.04913 Angstrom, flux=38.3831 ::  sig(Mean)=0.0690205, sig(Amplitude)=0.831414, sig(sigma)=0.0690385, sig(flux)=0.754496 :: EW =-2.60475 Angstrom
+
+emission
+  legendre   16.02987789      1.44314124      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   31.41424397      0.00105851      29.40837004      specid=0      wave=6461.9  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.07408274      0.23113287      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   0.37978410      0.00000234      80000.61177521      specid=0      wave=6461.9  IntFlux=True
+
+----------------------------------------------------------------------------------------------
+H Delta 4100
+Mean=4106.31 Angstrom, Amplitude=7.59283, sigma=0.709517 Angstrom, flux=13.5038 ::  sig(Mean)=0.0470173, sig(Amplitude)=0.435829, sig(sigma)=0.0470233, sig(flux)=1.18397 :: EW =-0.265381 Angstrom
+
+
+emission
+  legendre   51.50463253      0.65741430      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   11.00173492      0.00153099      44.01600603      specid=0      wave=4100.0  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.13261135      0.46280516      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   0.60008967      0.00000663      2.25917628      specid=0      wave=4100.0  IntFlux=True
+
+----------------------------------------------------------------------------------------------
+CII-4076.4 !!ERROR (chi-squared infinite--nothing there)
+
+----------------------------------------------------------------------------------------------
+OII 4366.892 + CII 4368.1,4369.0,4370.7,4372.4,4374.3,4375.0,4376.6
+
+Mean=4370.95 Angstrom, Amplitude=8.61502, sigma=0.498806 Angstrom, flux=10.7715 ::  sig(Mean)=0.0495777, sig(Amplitude)=0.74179, sig(sigma)=0.0496018, sig(flux)=1.01546 :: EW =-0.245051 Angstrom
+
+Mean=4373.03 Angstrom, Amplitude=2.8722, sigma=0.711046 Angstrom, flux=5.1192 ::  sig(Mean)=0.0674564, sig(Amplitude)=0.209395, sig(sigma)=0.0823885, sig(flux)=0.700803 :: EW =-0.0977254 Angstrom
+
+Mean=4377.04 Angstrom, Amplitude=8.23367, sigma=0.460029 Angstrom, flux=9.49442 ::  sig(Mean)=0.0700301, sig(Amplitude)=1.08668, sig(sigma)=0.0703075, sig(flux)=0.968693 :: EW =-0.205325 Angstrom
+
+Mean=4379.37 Angstrom, Amplitude=4.3572, sigma=0.479945 Angstrom, flux=5.2419 ::  sig(Mean)=0.0216755, sig(Amplitude)=0.17061, sig(sigma)=0.0219692, sig(flux)=0.315756 :: EW =-0.111982 Angstrom
+
+Mean=4381.05 Angstrom, Amplitude=5.3159, sigma=0.36622 Angstrom, flux=4.87987 ::  sig(Mean)=0.157393, sig(Amplitude)=1.91, sig(sigma)=0.176022, sig(flux)=0.830486 :: EW =-0.0977184 Angstrom
+
+emission
+  legendre   43.74534175      -2.32574045      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   amplitude=-19.42953076      redshift=0.00100665      dispersion=32.83612961      specid=0      wave=4366.53  IntFlux=True
+  gaussian   amplitude=21.64042993      redshift=0.00113550      dispersion=162.57273890      specid=0      wave=4368.1  IntFlux=True
+  gaussian   amplitude=0.46420736      redshift=0.00110707      dispersion=1.00000000E-20  specid=0      wave=4369.0  IntFlux=True
+  gaussian   amplitude=0.14440011      redshift=-0.00319266      dispersion=19.99929348      specid=0      wave=4370.7  IntFlux=True
+  gaussian   amplitude=16.14063968      redshift=0.00109706      dispersion=0.18228360      specid=0      wave=4372.4  IntFlux=True
+  gaussian   amplitude=10.37211299      redshift=0.00110849      dispersion=1.00000000E-20  specid=0      wave=4374.3  IntFlux=True
+  gaussian   amplitude=8.52341575      redshift=0.00100324      dispersion=0.53705443      specid=0      wave=4375.0  IntFlux=True
+  gaussian   amplitude=16.34197361      redshift=0.00104687      dispersion=44.78216071      specid=0      wave=4376.6  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.20761628      0.41316273      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   amplitude=1.25096087      redshift=0.00000399      dispersion=2.87452527      specid=0      wave=4366.53  IntFlux=True
+# gaussian   amplitude=4.57910131      redshift=0.00006815      dispersion=22.48825008      specid=0      wave=4368.1  IntFlux=True
+# gaussian   amplitude=0.00000000      redshift=0.00000000      dispersion=0.00000000E+00  specid=0      wave=4369.0  IntFlux=True
+# gaussian   amplitude=0.00000000      redshift=0.00000000      dispersion=0.00000000      specid=0      wave=4370.7  IntFlux=True
+# gaussian   amplitude=0.00000000      redshift=0.00007192      dispersion=27.13105860      specid=0      wave=4372.4  IntFlux=True
+# gaussian   amplitude=0.00000000      redshift=0.00000000      dispersion=0.00000000E+00  specid=0      wave=4374.3  IntFlux=True
+# gaussian   amplitude=283.99845814      redshift=0.00007801      dispersion=244.92395853      specid=0      wave=4375.0  IntFlux=True
+# gaussian   amplitude=0.99551400      redshift=0.00001045      dispersion=4.14527244      specid=0      wave=4376.6  IntFlux=True
+
+
+----------------------------------------------------------------------------------------------
+CII 4409.2,4410.0,4411.2,4411.5,4413.3 + OII 4414.905,4416.974
+
+EMISSION:
+Mean=4415.39 Angstrom, Amplitude=12.6789, sigma=1.2852 Angstrom, flux=40.8451 ::  sig(Mean)=0.0913204, sig(Amplitude)=0.78151, sig(sigma)=0.0965093, sig(flux)=1.32558 :: EW =-0.973924 Angstrom
+
+Mean=4419.2 Angstrom, Amplitude=6.64746, sigma=0.331507 Angstrom, flux=5.52381 ::  sig(Mean)=0.0521426, sig(Amplitude)=0.907943, sig(sigma)=0.0524159, sig(flux)=0.694537 :: EW =-0.148031 Angstrom
+
+Mean=4421.38 Angstrom, Amplitude=6.2978, sigma=0.416208 Angstrom, flux=6.57036 ::  sig(Mean)=0.066442, sig(Amplitude)=0.870988, sig(sigma)=0.0664412, sig(flux)=0.916909 :: EW =-0.16871 Angstrom
+
+
+emission
+  legendre   42.82913804      0.03613736      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   amplitude=5.37804197      redshift=0.00110303      dispersion=5.63113230dd      specid=0      wave=4409.2  IntFlux=True
+  gaussian   amplitude=6.55680742      redshift=0.00113078      dispersion=5.63113230dd      specid=0      wave=4410.0  IntFlux=True
+  gaussian   amplitude=5.18012788      redshift=0.00119722      dispersion=5.63113230dd      specid=0      wave=4411.2  IntFlux=True
+  gaussian   amplitude=10.61201123      redshift=9.98897584E-04  dispersion=5.63113230dd      specid=0      wave=4411.5  IntFlux=True
+  gaussian   amplitude=2.60299785      redshift=0.00113952      dispersion=5.63113230dd      specid=0      wave=4413.3  IntFlux=True
+  gaussian   amplitude=-19.13188059      redshift=9.42304708E-04  dispersion=27.60579219aa      specid=0      wave=4414.905  IntFlux=True
+  gaussian   amplitude=-15.54839322      redshift=9.73257453E-04  dispersion=27.60579219aa      specid=0      wave=4416.974  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.10521053      0.25005996      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   amplitude=7.50936107      redshift=0.00003767      dispersion=84962.70283764dd      specid=0      wave=4409.2  IntFlux=True
+# gaussian   amplitude=5.13143064      redshift=0.00005475      dispersion=84962.70283764dd      specid=0      wave=4410.0  IntFlux=True
+# gaussian   amplitude=5.90031784      redshift=0.00004427      dispersion=84962.70283764dd      specid=0      wave=4411.2  IntFlux=True
+# gaussian   amplitude=5.00826538      redshift=4.46287023E-05  dispersion=84962.70283764dd      specid=0      wave=4411.5  IntFlux=True
+# gaussian   amplitude=2.32362654      redshift=0.00006996      dispersion=84962.70283764dd      specid=0      wave=4413.3  IntFlux=True
+# gaussian   amplitude=2.19484884      redshift=1.46901192E-05  dispersion=14873.33923804aa      specid=0      wave=4414.905  IntFlux=True
+# gaussian   amplitude=0.46692055      redshift=3.88380665E-06  dispersion=14873.33923804aa      specid=0      wave=4416.974  IntFlux=True
+
+----------------------------------------------------------------------------------------------
+CII 4618.4,4619.2,4625.6,4627.4,4630.0
+
+
+
+emission
+  legendre   41.33586609      0.43995606      specid=0  continuum=True    scale=1.0,1.0
+  gaussian   54.03847095      0.00130612      106.93722088      specid=0      wave=4618.4  IntFlux=True
+  gaussian   7.11617185      0.00130790      0.41415724      specid=0      wave=4619.2  IntFlux=True
+  gaussian   10.49493477      0.00103853      42.31464931      specid=0      wave=4625.6  IntFlux=True
+  gaussian   7.83806879      0.00109894      56.69193638      specid=0      wave=4627.4  IntFlux=True
+  gaussian   10.71390228      0.00111077      40.07428195      specid=0      wave=4630.0  IntFlux=True
+model end
+
+#
+# Errors:
+#
+#emission
+# legendre   0.14571304      0.26680251      specid=0  continuum=True    scale=1.0,1.0
+# gaussian   1.56934221      0.00000877      2.80310963      specid=0      wave=4618.4  IntFlux=True
+# gaussian   3148.45574059      0.00173162      570.96303898      specid=0      wave=4619.2  IntFlux=True
+# gaussian   4.00115417      0.00005205      10.60298581      specid=0      wave=4625.6  IntFlux=True
+# gaussian   4.79894694      0.00009065      39.62690469      specid=0      wave=4627.4  IntFlux=True
+# gaussian   1.85091068      0.00002196      7.66426148      specid=0      wave=4630.0  IntFlux=True
+
