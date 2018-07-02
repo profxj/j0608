@@ -1,5 +1,6 @@
 
-Questions for Prof. X:
+LOG:
+July 2, 2018: realized I was feeding ALIS air wavelengths instead of vacuum.  I confirmed that J0608_ALIS.ascii is a vacuum spectrum.  I must revise all of my wavelengths such that I get the correct redshift outputs.
 
 
 J0608 Notes:
