@@ -1,6 +1,20 @@
 
 LOG:
-July 2, 2018: realized I was feeding ALIS air wavelengths instead of vacuum.  I confirmed that J0608_ALIS.ascii is a vacuum spectrum.  I must revise all of my wavelengths such that I get the correct redshift outputs.
+July 2, 2018: realized I was feeding ALIS air wavelengths instead of vacuum.  I set off to determine whether the ALIS spectrum I've been analyzing is in air or vac.  I looked at all of the spectra I have access to and measured their redshifts using H-Alpha using LineTools.
+
+FIRST, I investigated redshifts (did not prove fruitful)
+Using LineTools (which overlays line markers in vacuum):
+-dupontair.fits has a redshift of 0.00064 in vac, 0.000935 in air (the air redshift is what the "true" redshift should be, because I know this spectrum is in air by the title)
+-UVQS_J0608_F.fits has a redshift of 0.00077 (not sure if in air or vac, but most certainly the same medium as the ALIS spectrum)
+-CPD-56_F.fits has a redshift of -0.00025 (this was altered to have a 0 redhshift in air, so not useful for me right now)
+-J0608_tell_30dec2017.fits has a redshift of 0.00053 assuming vac (0.0008 assuming air) (this is what I am analyzing now)
+
+
+NEXT, I looked at the UVQSJ0608 files, which is the only relevant spectrum I have with both a flux and error array.  I examined the error array and found the OI 5577.34 (in air) skyline to be in vacuum (@ 5578.98).  Therefore, UVQSJ0608_F.fits is definitely in vacuum.
+
+Next, I compared UVQSJ0608_F.fits to J0608_30dec2017 (which is what is used for ALIS) and found that every line is slightly blueshifted compared to the UVQS.  Upon plugging in a few lines into airtovac(), I found that J0608_30dec2017 is most definitely in air.  Now, all I have to do is confirm that J0608_30dec2017 is ALIS's input source.
+
+To do this, I first looked at the H-alpha.mod.out file.  ALIS found that it's mean is 6569.870 angstroms.  UVQS found that its mean is about 6569.62 Angstroms, while J0608_30dec2017.fits found that its mean is 6568.08.  Therefore, the ALIS spectrum is actually not sourced from J0608_30dec2017.fits but actually from another file which is identical to the UVQS file, which is in vacuum.  Therefore, ALIS is in vacuum and I must switch all of my wavelengths to vacuum.
 
 
 J0608 Notes:
