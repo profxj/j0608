@@ -16,14 +16,14 @@ data end
 
 model read
 lim gaussian amplitude [None,None]
-fix vfwhm value True
+fix vfwhm value False
 fix gaussian dispersion False
 emission
 # Specify the continuum (or background) level
     legendre 25.0   0.01    scale=[1.0,1.0]   specid=0    continuum=True
 # Specify the emission lines
-    gaussian amplitude=40.0   redshift=0.001138   dispersion=35.962   wave=5535 specid=0    IntFlux=True
-    gaussian amplitude=35.0   redshift=0.001138   dispersion=35.962   wave=5538 specid=0    IntFlux=True
+    gaussian amplitude=40.0   redshift=0.0008   dispersion=35.962   wave=5536.5 specid=0    IntFlux=True
+    gaussian amplitude=35.0   redshift=0.0008   dispersion=35.962   wave=5539.5 specid=0    IntFlux=True
     model end
 
 #link read

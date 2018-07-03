@@ -30,7 +30,7 @@ fix vfwhm value True
 fix gaussian dispersion False
  emission
   legendre   14.30157978      15.29200840      specid=0  continuum=True    scale=1.0,1.0
-  gaussian   143.19037557      0.00105484      26.11396215      specid=0      wave=6583.4  IntFlux=True
+  gaussian   143.19037557      0.0008      26.11396215      specid=0      wave=6585.2  IntFlux=True
 model end
 
 #

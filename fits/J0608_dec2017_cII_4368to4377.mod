@@ -22,14 +22,14 @@ emission
 # Specify the continuum (or background) level
     legendre 45.0   0.01    scale=[1.0,1.0]   specid=0    continuum=True
 # Specify the emission lines
-    gaussian amplitude=-10.0  redshift=0.0011   dispersion=20   wave=4366.530 specid=0    IntFlux=True
-    gaussian amplitude=5.0  redshift=0.0011   dispersion=20   wave=4368.1 specid=0    IntFlux=True
-    gaussian amplitude=.5  redshift=0.0011   dispersion=20   wave=4369.0 specid=0    IntFlux=True
-    gaussian amplitude=0  redshift=0.0011   dispersion=20   wave=4370.7 specid=0    IntFlux=True
-    gaussian amplitude=25.0  redshift=0.0011   dispersion=20   wave=4372.4 specid=0    IntFlux=True
-    gaussian amplitude=10.0  redshift=0.0011   dispersion=20   wave=4374.3 specid=0    IntFlux=True
-    gaussian amplitude=6.0  redshift=0.0011   dispersion=20   wave=4375.0 specid=0    IntFlux=True
-    gaussian amplitude=12.0  redshift=0.0011   dispersion=20   wave=4376.6 specid=0    IntFlux=True
+    gaussian amplitude=-10.0  redshift=0.0005   dispersion=20   wave=4369.3 specid=0    IntFlux=True
+    gaussian amplitude=5.0  redshift=0.0008   dispersion=20   wave=4369.3 specid=0    IntFlux=True
+    gaussian amplitude=.5  redshift=0.0005   dispersion=20   wave=4371.9 specid=0    IntFlux=True
+    gaussian amplitude=0  redshift=0.0008   dispersion=20   wave=4371.9 specid=0    IntFlux=True
+    gaussian amplitude=25.0  redshift=0.0008   dispersion=20   wave=4373.6 specid=0    IntFlux=True
+    gaussian amplitude=10.0  redshift=0.0008   dispersion=20   wave=4375.5 specid=0    IntFlux=True
+    gaussian amplitude=6.0  redshift=0.0008   dispersion=20   wave=4376.2 specid=0    IntFlux=True
+    gaussian amplitude=12.0  redshift=0.0008   dispersion=20   wave=4377.8 specid=0    IntFlux=True
     model end
 
 #link read

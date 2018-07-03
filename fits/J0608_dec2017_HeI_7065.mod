@@ -22,7 +22,7 @@ emission
 # Specify the continuum (or background) level
     legendre 10.0   0.01    scale=[1.0,1.0]   specid=0    continuum=True
 # Specify the emission lines
-    gaussian amplitude=15.0   redshift=0.0011   dispersion=20   wave=7065.2 specid=0    IntFlux=True
+    gaussian amplitude=15.0   redshift=0.0008   dispersion=20   wave=7067.1 specid=0    IntFlux=True
 
 #link read
 #link end

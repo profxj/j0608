@@ -22,10 +22,10 @@ fix gaussian dispersion False
 emission
 # Specify the continuum (or background) level
     legendre 10   0.01    scale=[1.0,1.0]   specid=0    continuum=True
-    gaussian 5   0.0011   20   wave=7508.9   specid=0    IntFlux=True
-    gaussian 5   0.0011   20   wave=7519.49   specid=0    IntFlux=True
-    gaussian 5   0.0011   20   wave=7519.93   specid=0    IntFlux=True
-    gaussian 5   0.0011   20   wave=7530.6   specid=0    IntFlux=True
+    gaussian 5   0.0008   20   wave=7511   specid=0    IntFlux=True
+    gaussian 5   0.0008   20   wave=7521.6   specid=0    IntFlux=True
+    gaussian 5   0.0008   20   wave=7522   specid=0    IntFlux=True
+    gaussian 5   0.0008   20   wave=7532.7   specid=0    IntFlux=True
 
 model end
 
