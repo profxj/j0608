@@ -11,17 +11,17 @@ plot labels True
 plot fits False
 
 data read
-  ../../j0608/data/spec/J0608_ALIS.ascii   specid=0   fitrange=[4863,4870]   loadrange=[4854,4877]   resolution=vfwhm(75.0vtie)   columns=[wave,flux,error]       label=HBeta
+  ../../j0608/data/spec/J0608_ALIS.ascii   specid=0   fitrange=[4863,4870]   loadrange=[4854,4877]   resolution=vfwhm(73.1)   columns=[wave,flux,error]       label=HBeta
 data end
 
 model read
 lim gaussian amplitude [None,None]
-fix vfwhm value False
+fix vfwhm value True
 fix gaussian dispersion False
 emission
 # Specify the continuum (or background) level
     legendre 31.0   0.01    scale=[1.0,1.0]   specid=0    continuum=True
 # Specify the emission lines
-    gaussian amplitude=55.0   redshift=0.0008   dispersion=55.434   wave=4862.7 specid=0    IntFlux=True
+    gaussian    55.0    0.0008    55.434   wave=4862.7 specid=0    IntFlux=True
 #link read
 #link end

@@ -11,7 +11,7 @@ plot labels True
 plot fits False
 
 data read
-  ../../j0608/data/spec/J0608_ALIS.ascii   specid=0   fitrange=[4343.,4347.]   loadrange=[4342.,4348]   resolution=vfwhm(75.0vtie)   columns=[wave,flux,error]       label=H-gamma
+  ../../j0608/data/spec/J0608_ALIS.ascii   specid=0   fitrange=[4343.,4347.]   loadrange=[4342.,4348]   resolution=vfwhm(73.1)   columns=[wave,flux,error]       label=H-gamma
 data end
 
 model read
@@ -21,7 +21,7 @@ fix gaussian dispersion False
 emission
 # Specify the continuum (or background) level
     legendre 50   0.01    scale=[1.0,1.0]   specid=0    continuum=True
-    gaussian 5   0.0008   20   wave=4341.7   specid=0    IntFlux=True
+    gaussian    5    0.0008    20   wave=4341.7   specid=0    IntFlux=True
 model end
 
 #link read

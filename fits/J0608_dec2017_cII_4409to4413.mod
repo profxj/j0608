@@ -11,24 +11,24 @@ plot labels True
 plot fits False
 
 data read
-  ../../j0608/data/spec/J0608_ALIS.ascii   specid=0   fitrange=[4411,4424]   loadrange=[4408,4427]   resolution=vfwhm(75.0vtie)   columns=[wave,flux,error]       label=CII4409to4413+OII4415ti4417
+  ../../j0608/data/spec/J0608_ALIS.ascii   specid=0   fitrange=[4411,4424]   loadrange=[4408,4427]   resolution=vfwhm(73.1)   columns=[wave,flux,error]       label=CII4409to4413+OII4415ti4417
 data end
 
 model read
 lim gaussian amplitude [None,None]
-fix vfwhm value False
+fix vfwhm value True
 fix gaussian dispersion False
 emission
 # Specify the continuum (or background) level
     legendre 40.0   0.01    scale=[1.0,1.0]   specid=0    continuum=True
 # Specify the emission lines
-    gaussian amplitude=1.0  redshift=0.0008   dispersion=20dd   wave=4410.4 specid=0    IntFlux=True
-    gaussian amplitude=10.0  redshift=0.0008   dispersion=20dd   wave=4411.2 specid=0    IntFlux=True
-    gaussian amplitude=10  redshift=0.0008   dispersion=20dd   wave=4412.4 specid=0    IntFlux=True
-    gaussian amplitude=2   redshift=0.0008   dispersion=20dd   wave=4412.7 specid=0    IntFlux=True
-    gaussian amplitude=.5  redshift=0.0008   dispersion=20dd   wave=4414.5 specid=0    IntFlux=True
-    gaussian amplitude=-10  redshift=0.0008   dispersion=20aa   wave=4416.14 specid=0    IntFlux=True
-    gaussian amplitude=-10  redshift=0.0008   dispersion=20aa   wave=4418.215 specid=0    IntFlux=True
+    gaussian    1.0    0.0008    20   wave=4410.4 specid=0    IntFlux=True
+    gaussian    10.0    0.0008    20   wave=4411.2 specid=0    IntFlux=True
+    gaussian    10.0    0.0008    20   wave=4412.4 specid=0    IntFlux=True
+    gaussian    2.0    0.0008    20   wave=4412.7 specid=0    IntFlux=True
+    gaussian    0.5    0.0008    20   wave=4414.5 specid=0    IntFlux=True
+    gaussian    -10    0.0008    20   wave=4416.14 specid=0    IntFlux=True
+    gaussian    -10    0.0008    20   wave=4418.215 specid=0    IntFlux=True
 model end
 
 #link read

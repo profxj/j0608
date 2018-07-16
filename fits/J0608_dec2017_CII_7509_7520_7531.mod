@@ -11,21 +11,21 @@ plot labels True
 plot fits False
 
 data read
-  ../../j0608/data/spec/J0608_ALIS.ascii   specid=0   fitrange=[7515.2,7543.1]   loadrange=[7510,7545]   resolution=vfwhm(75.0vtie)   columns=[wave,flux,error]       label=CII7509+7520+7531
+  ../../j0608/data/spec/J0608_ALIS.ascii   specid=0   fitrange=[7506,7543.1]   loadrange=[7505,7545]   resolution=vfwhm(73.1)   columns=[wave,flux,error]       label=CI7507+CII7509+7520+7531
 
 data end
 
 model read
 lim gaussian amplitude [None,None]
-fix vfwhm value False
+fix vfwhm value True
 fix gaussian dispersion False
 emission
 # Specify the continuum (or background) level
     legendre 10   0.01    scale=[1.0,1.0]   specid=0    continuum=True
-    gaussian 5   0.0008   20   wave=7511   specid=0    IntFlux=True
-    gaussian 5   0.0008   20   wave=7521.6   specid=0    IntFlux=True
-    gaussian 5   0.0008   20   wave=7522   specid=0    IntFlux=True
-    gaussian 5   0.0008   20   wave=7532.7   specid=0    IntFlux=True
+    gaussian    15    0.0008    20   wave=7507.73   specid=0    IntFlux=True
+    gaussian    15    0.0008    20   wave=7510.96   specid=0    IntFlux=True
+    gaussian    15    0.0008    20   wave=7522.00   specid=0    IntFlux=True
+    gaussian    10    0.0008    20   wave=7532.64   specid=0    IntFlux=True
 
 model end
 
