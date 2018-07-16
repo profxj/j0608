@@ -14,7 +14,6 @@ from setuptools import setup, find_packages
 #
 # DESI support code.
 #
-#from desiutil.setup import DesiTest, DesiVersion, get_version
 #
 # Begin setup
 #
