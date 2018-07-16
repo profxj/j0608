@@ -24,7 +24,6 @@ emission
 # Specify the emission lines
     gaussian    -10.0    0.0005    20   wave=4369.3 specid=0    IntFlux=True
     gaussian    5.0    0.0008    20   wave=4369.3 specid=0    IntFlux=True
-    gaussian    0.5    0.0005    20   wave=4371.9 specid=0    IntFlux=True
     gaussian    1    0.0008    20   wave=4371.9 specid=0    IntFlux=True
     gaussian    25.0    0.0008    20   wave=4373.6 specid=0    IntFlux=True
     gaussian    10.0    0.0008    20   wave=4375.5 specid=0    IntFlux=True
