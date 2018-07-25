@@ -22,7 +22,7 @@ emission
 # Specify the continuum (or background) level
     legendre 50.0   0.01    scale=[1.0,1.0]   specid=0    continuum=True
 # Specify the emission lines
-    gaussian    125.0    0.0008    35.962   wave=4268.20 specid=0    IntFlux=True
+    gaussian    125.0    0.0008    35.962   wave=4268.46 specid=0    IntFlux=True
     model end
 
 #link read

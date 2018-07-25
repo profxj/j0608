@@ -1,6 +1,9 @@
 
 LOG:
-July 2, 2018: realized I was feeding ALIS air wavelengths instead of vacuum.  I set off to determine whether the ALIS spectrum I've been analyzing is in air or vac.  I looked at all of the spectra I have access to and measured their redshifts using H-Alpha using LineTools.
+
+JULY 2, 2018: ---------------------------------------------
+
+realized I was feeding ALIS air wavelengths instead of vacuum.  I set off to determine whether the ALIS spectrum I've been analyzing is in air or vac.  I looked at all of the spectra I have access to and measured their redshifts using H-Alpha using LineTools.
 
 FIRST, I investigated redshifts (did not prove fruitful)
 Using LineTools (which overlays line markers in vacuum):
@@ -16,8 +19,13 @@ Next, I compared UVQSJ0608_F.fits to J0608_30dec2017 (which is what is used for 
 
 To do this, I first looked at the H-alpha.mod.out file.  ALIS found that it's mean is 6569.870 angstroms.  UVQS found that its mean is about 6569.62 Angstroms, while J0608_30dec2017.fits found that its mean is 6568.08.  Therefore, the ALIS spectrum is actually not sourced from J0608_30dec2017.fits but actually from another file which is identical to the UVQS file, which is in vacuum.  Therefore, ALIS is in vacuum and I must switch all of my wavelengths to vacuum.
 
+JULY 3 2018 -----------------------------------------------
+Switched all wavelengths to vac.
 
-J0608 Notes:
+
+
+
+J0608 Notes: ---------------------------------------------------------
 
 UVQSJ0608_F.fits
 
