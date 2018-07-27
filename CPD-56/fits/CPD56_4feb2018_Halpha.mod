@@ -23,8 +23,8 @@ emission
     legendre 1000   0.01    scale=[1.0,1.0]   specid=0    continuum=True
     gaussian    4000    0.00001    35   wave=6548.1   specid=0    IntFlux=True
     gaussian    9000    0.00001    35   wave=6562.8   specid=0    IntFlux=True
-    gaussian    -500    -0.0005    35   wave=6578.1   specid=0    IntFlux=True
-    gaussian    7000    0.00001    35   wave=6578.1   specid=0    IntFlux=True
+    gaussian    -500    -0.0005    35   wave=6577.3   specid=0    IntFlux=True
+    gaussian    7000    0.00001    35   wave=6577.3   specid=0    IntFlux=True
     gaussian    100000    0.00001    35   wave=6583.5   specid=0    IntFlux=True
 model end
 
